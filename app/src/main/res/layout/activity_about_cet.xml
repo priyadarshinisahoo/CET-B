@@ -10,4 +10,18 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.android.cetbhubaneswar.AboutCET">
 
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About CET"
+        android:textAllCaps="true"/>
+
+    <TextView
+        android:id="@+id/about_cet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_cet"
+        android:layout_below="@id/heading"/>
+
 </RelativeLayout>
